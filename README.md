@@ -2,8 +2,6 @@
 
 This repository is the official Pytorch implementation of HSemCD.
 
->📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
-
 ![model](/imgs/HSemCD.pdf "HSemCD")
 
 
