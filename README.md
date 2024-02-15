@@ -2,7 +2,7 @@
 
 This repository is the official Pytorch implementation of HSemCD.
 
-![model](/imgs/HSemCD.pdf "HSemCD")
+![model](/imgs/HSemCD.png "HSemCD")
 
 
 
