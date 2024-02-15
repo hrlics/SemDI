@@ -25,19 +25,18 @@ pip install -r requirements.txt
 ## Getting Started
 
 ### Data:
-We have provided the processed data in
-> ./dataset
+We have provided the processed data in `./dataset`
 
 The raw data can be found at:
+
 (1) EventStoryLine v0.9 (ESC): [https://github.com/tommasoc80/EventStoryLine](https://github.com/tommasoc80/EventStoryLine)
 
 (2) Causal-TimeBank (CTB): [https://github.com/paramitamirza/Causal-TimeBank](https://github.com/paramitamirza/Causal-TimeBank)
 
+&nbsp;
+### Training
 
-
-## Training
-
-To train the model(s) in the paper, run this command:
+Go to the `code/Vision-Text/` folder and run the script vtcls_script.sh to start training:
 
 ```train
 python train.py --input-data <path_to_data> --alpha 10 --beta 20
