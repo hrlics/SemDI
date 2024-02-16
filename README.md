@@ -59,14 +59,7 @@ python eval.py --model-file mymodel.pth --benchmark imagenet
 
 Our model achieves the following performance on :
 
-| Model name         | Top 1 Accuracy  | Top 5 Accuracy |
-| ------------------ |---------------- | -------------- |
-| My awesome model   |     85%         |      95%       |
-| My awesome model   |     85%         |      95%       |
-| My awesome model   |     85%         |      95%       |
-| My awesome model   |     85%         |      95%       |
-| My awesome model   |     85%         |      95%       |
-| My awesome model   |     85%         |      95%       |
+<img src="/imgs/Table1.png" alt="Table1" width="300" />
 
 
 
