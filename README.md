@@ -7,7 +7,7 @@ This repository is the official Pytorch implementation of HSemCD.
 
 ## Overview
 
-![model](/imgs/HSemCD.png "HSemCD")
+<img src="./imgs/HSemCD.png"/>
 
 Event Causality Identification (ECI) focuses on extracting causal relations between events in texts. Existing methods primarily utilize contextual features and external knowledge bases (KB) to identify causality. However, such approaches fall short in two dimensions: (1) the causal features between events in a text often lack explicit clues, and (2) prior knowledge from external KB may introduce bias when inferencing causality in a given context. Given these issues, 
 we introduce a novel **Semantic Consistency Inquiry (SemCI)** to the ECI task and propose the **H**euristic **Sem**antic **C**onsistency **D**iscriminator (HSemCD), a model that is both straightforward and effective. HSemCD utilizes a *Cloze* Analyzer to facilitate a gap-filling game, aiming to help uncover the causal chain in the context. Subsequently, it examines the semantic consistency between the fill-in token and the given sentence to detect the existence of the causal chain. Through this assessment, HSemCD reveals the causal relations between events indirectly. 
@@ -59,7 +59,7 @@ Go to the `src` folder and run the scripts to start training:
 
 As a simple and effective approach, our HSemCD outperforms previous SOTA algorithms by a significant margin:
 
-<img src="/imgs/Table1.png" alt="Table1" width="350" height="400" style="vertical-align:middle;"/> <img src="/imgs/Table2.png" alt="Table2" width="350" height="350" style="vertical-align:middle;"/>
+<img src="./imgs/Table1.png" alt="Table1" width="350" height="400" style="vertical-align:middle;"/> <img src="./imgs/Table2.png" alt="Table2" width="350" height="350" style="vertical-align:middle;"/>
 
 
 
