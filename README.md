@@ -22,10 +22,18 @@ To install requirements:
 pip install -r requirements.txt
 ```
 
+## A Quick Checkout
+
+We have provided a jupyter notebook to run fast evaluation on ESC, ESC<sup>*</sup>, and CTB:
+
+```eval
+src/evaluate_demo.ipynb
+```
+
 ## Getting Started
 
 ### Data:
-We have provided the processed data in `./dataset`
+We have provided the processed data in `src/dataset`
 
 The raw data can be found at:
 
@@ -46,13 +54,6 @@ Go to the `src` folder and run the scripts to start training:
 
 > If the paper is accepted, we will release the full version, i.e., the total processed data for training.
 
-### Evaluation
-
-To evaluate my model on ImageNet, run:
-
-```eval
-python eval.py --model-file mymodel.pth --benchmark imagenet
-```
 
 ### Results
 
