@@ -33,7 +33,6 @@ The raw data can be found at:
 
 (2) Causal-TimeBank (CTB): [https://github.com/paramitamirza/Causal-TimeBank](https://github.com/paramitamirza/Causal-TimeBank)
 
-&nbsp;
 
 ### Training
 
@@ -57,9 +56,10 @@ python eval.py --model-file mymodel.pth --benchmark imagenet
 
 ### Results
 
-Our model achieves the following performance on :
+As a simple and effective approach, our HSemCD outperforms previous SOTA algorithms by a significant margin:
 
-<img src="/imgs/Table1.png" alt="Table1" width="300" />
+<img src="/imgs/Table1.png" alt="Table1" width="350" height="400" style="vertical-align:middle;"/> <img src="/imgs/Table2.png" alt="Table2" width="350" height="350" style="vertical-align:middle;"/>
+
 
 
 
