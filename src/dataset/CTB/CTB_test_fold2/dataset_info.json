@@ -1,0 +1,32 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "sentence": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "e1": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "e2": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "event_tagged_sentence": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "event_masked_sentence": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "labels": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}
