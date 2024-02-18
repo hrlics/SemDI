@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 ## A Quick Checkout
 
-We have provided a jupyter notebook to run fast evaluation on ESC, ESC<sup>*</sup>, and CTB:
+We have provided a jupyter notebook to run fast evaluations on ESC, ESC<sup>*</sup>, and CTB:
 
 ```eval
 src/evaluate_demo.ipynb
