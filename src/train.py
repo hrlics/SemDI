@@ -67,7 +67,7 @@ total_dataset = load_from_disk(dataset)
 device = 'cuda'
 fold_size = len(total_dataset) // num_folds
 
-checkpoint_path = f'checkpoints/{dataset_name}_{bert_path}'
+checkpoint_path = f'checkpoints/{dataset_name}_{bert_path.split("/")[1]}'
 os.makedirs(checkpoint_path, exist_ok=True)
 print(f"Save the checkpoint at: {checkpoint_path}")
 
