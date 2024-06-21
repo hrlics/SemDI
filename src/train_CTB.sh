@@ -1,5 +1,5 @@
 python train.py \
-    --dataset dataset/CTB/CTB_dataset_roberta \
+    --dataset dataset/CTB/CTB_dataset \
     --dataset_name CTB \
     --num_folds 10 \
     --num_epochs 100 \
