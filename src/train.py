@@ -29,8 +29,8 @@ parser.add_argument('--num_heads', type=int, default=16, help='number of heads i
 parser.add_argument('--dropout_rate', type=float, default=0.5, help='drop out rate of FFN in the model')
 parser.add_argument('--visualize', action='store_true', help='demonstrate the generated token')
 parser.add_argument('--SEED', type=int, default=3407)
-parser.add_argument('--shuffle', type=bool, default=False, help='if shuffle==False, use cross-topic partition (ESC).\
-                    If shuffle==True, random partition (ESC*)')
+parser.add_argument('--shuffle', action='store_true', help='if shuffle=False, use cross-topic partition(ESC).\
+                    If shuffle=True, random partition(ESC*)')
 
 args, _ = parser.parse_known_args()
 dataset=args.dataset
