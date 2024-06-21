@@ -4,7 +4,7 @@ This repository provides the official Pytorch implementation of SemDI.
 
 ## :telescope: Overview
 
-<img src="./imgs/SemDI.png"/>
+<img src="/imgs/SemDI.png"/>
 
 Event Causality Identification (ECI) focuses on extracting causal relations between events in texts. Existing methods for ECI primarily rely on causal features and external knowledge. However, these approaches fall short in two dimensions: (1) causal features between events in a text often lack explicit clues, and (2) external knowledge may introduce bias, while specific problems require tailored analyses. To address these issues, we propose SemDI - a simple and effective **Sem**antic **D**ependency **I**nquiry Network for ECI. SemDI captures semantic dependencies within the context using a unified encoder. Then, it utilizes a *Cloze* Analyzer to generate a fill-in token based on comprehensive context understanding. Finally, this fill-in token is used to inquire about the causal relation between two events. Extensive experiments demonstrate the effectiveness of SemDI, surpassing state-of-the-art methods on three widely used benchmarks.
 
@@ -62,7 +62,7 @@ Under `src` directory, run the following scripts to start training:
 
 As a simple and effective framework, our SemDI outperforms state-of-the-art algorithms by a significant margin:
 
-<img src="./imgs/ESC.png" alt="Table1" width="320" height="400" style="vertical-align:middle;"/> <img src="./imgs/CTB.png" alt="Table2" width="320" height="400" style="vertical-align:middle;"/><img src="./imgs/ESCstar.png" alt="Table2" width="320" height="200" style="vertical-align:middle;"/>
+<img src="/imgs/ESC.png" alt="Table1" width="320" height="400" style="vertical-align:middle;"/> <img src="/imgs/CTB.png" alt="Table2" width="320" height="400" style="vertical-align:middle;"/><img src="/imgs/ESCstar.png" alt="Table2" width="320" height="200" style="vertical-align:middle;"/>
 
 
 
