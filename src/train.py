@@ -27,7 +27,7 @@ parser.add_argument('--bert_path', type=str, default=''FacebookAI/roberta-large'
 parser.add_argument('--d_model', type=int, default=1024, help='hidden dimension of the model')
 parser.add_argument('--num_heads', type=int, default=16, help='number of heads in multi-head attention')
 parser.add_argument('--dropout_rate', type=float, default=0.5, help='drop out rate of FFN in the model')
-parser.add_argument('--visualize', type=bool, default=False, help='demonstrate the generated token and sentence')
+parser.add_argument('--visualize', action='store_true', help='demonstrate the generated token')
 parser.add_argument('--SEED', type=int, default=3407)
 parser.add_argument('--shuffle', type=bool, default=False, help='if shuffle==False, use cross-topic partition (ESC).\
                     If shuffle==True, random partition (ESC*)')
