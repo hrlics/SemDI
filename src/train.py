@@ -74,6 +74,7 @@ if dataset_name == 'ESC' and shuffle:
     print('\n*************************************************************')
     print('*********     use random partition (ESC*)    ****************')
     print('*************************************************************\n')
+    dataset_name += 'star'
 elif dataset_name == 'ESC':
     print('\n*************************************************************')
     print('*********     use sorted partition (ESC)    ****************')
