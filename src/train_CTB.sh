@@ -11,4 +11,4 @@ python train.py \
     --num_heads 16 \
     --dropout_rate 0.5 \
     --SEED 3407 \
-    --shuffle False \
+    --shuffle False
