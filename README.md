@@ -1,27 +1,14 @@
-# Advancing Event Causality Identification via Heuristic Semantic Consistency Inquiry Network
+# Advancing Event Causality Identification via Heuristic Semantic Dependency Inquiry Network
 
-This repository is the official Pytorch implementation of HSemCD.
+This repository provides the official Pytorch implementation of SemDI.
 
-
-
-
-## Overview
+## :telescope: Overview
 
 <img src="./imgs/SemDI.png"/>
 
-Event Causality Identification (ECI) focuses on extracting causal relations between events in texts. Existing methods primarily utilize causal features and external knowledge to identify causality. However, such approaches fall short in two dimensions: (1) the causal features between events in a text often lack explicit clues, and (2) external knowledge may introduce bias, while specific problems require specific analyses. In light of these issues, we introduce a novel **Semantic Consistency Inquiry (SemCI)** to the ECI task and propose the **H**euristic **Sem**antic **C**onsistency **D**iscriminator (HSemCD), a model that is both straightforward and effective. HSemCD utilizes a *Cloze* Analyzer to facilitate a gap-filling game, aiming to help uncover the semantic dependency in the context. Subsequently, it assesses the semantic consistency between the fill-in token and the given sentence to detect the existence of causality. Through this assessment, HSemCD reveals the causal relations between events indirectly. Comprehensive experiments validate the effectiveness of HSemCD, which surpasses previous state-of-the-art methods on three widely used benchmarks.
+Event Causality Identification (ECI) focuses on extracting causal relations between events in texts. Existing methods for ECI primarily rely on causal features and external knowledge. However, these approaches fall short in two dimensions: (1) causal features between events in a text often lack explicit clues, and (2) external knowledge may introduce bias, while specific problems require tailored analyses. To address these issues, we propose SemDI - a simple and effective **Sem**antic **D**ependency **I**nquiry Network for ECI. SemDI captures semantic dependencies within the context using a unified encoder. Then, it utilizes a *Cloze* Analyzer to generate a fill-in token based on comprehensive context understanding. Finally, this fill-in token is used to inquire about the causal relation between two events. Extensive experiments demonstrate the effectiveness of SemDI, surpassing state-of-the-art methods on three widely used benchmarks.
 
-
-
-## Requirements
-
-To install requirements:
-
-```setup
-pip install -r requirements.txt
-```
-
-## A Quick Checkout
+## :bulb: A Quick Checkout
 
 We have provided a jupyter notebook to run fast evaluations on ESC, ESC<sup>*</sup>, and CTB:
 
@@ -29,10 +16,18 @@ We have provided a jupyter notebook to run fast evaluations on ESC, ESC<sup>*</s
 src/evaluate_demo.ipynb
 ```
 
-## Getting Started
+## :clipboard: Requirements
+
+To install requirements:
+
+```setup
+pip install -r requirements.txt
+```
+
+## :rocket: Getting Started
 
 ### Data:
-We have provided the processed data in `src/dataset`
+We provide part of the processed data in `src/dataset`
 
 The raw data can be found at:
 
@@ -43,15 +38,24 @@ The raw data can be found at:
 
 ### Training
 
-Go to the `src` folder and run the scripts to start training: 
+Under `src` directory, run the following scripts to start training: 
 
-(1) ESC: ```sh train_ESC.sh```
+(1) ESC: 
+```
+  sh train_ESC.sh
+```
 
-(2) ESC<sup>*</sup>: `sh train_ESCstar.sh`
+(2) ESC<sup>*</sup>: 
+```
+  sh train_ESCstar.sh
+```
 
-(3) CTB: `sh train_CTB.sh`
+(3) CTB: 
+```
+sh train_CTB.sh
+```
 
-> If the paper is accepted, we will release the full version, i.e., the total processed data for training.
+> If this paper is accepted, we will release the full version, i.e., the total processed data for training.
 
 
 ### Results
