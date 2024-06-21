@@ -86,7 +86,7 @@ else:
 for i in range(num_folds):
     print(f"start Fold {i+1} training")
     
-    wandb.init(project="HSemCD", name=f'{dataset_name}_{i+1}')
+    wandb.init(project="SemDI", name=f'{dataset_name}_fold{i+1}')
    
     # dataset
     test_indices = list(range(i * fold_size, (i + 1) * fold_size))
@@ -117,7 +117,7 @@ for i in range(num_folds):
     
     print(f"train len: {len(masked_train_fold)}, test len: {len(masked_test_fold)}")
     
-    #dataloader
+    # dataloader
     data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
     
     dataloader_mask_train = DataLoader(
@@ -223,9 +223,9 @@ for i in range(num_folds):
             "train_loss": mean_loss.item(),
         })
         
-        # save the model
+        # save the best model
         if f1_score_t*100 > highest_f1:
-            highest_f1= f1_score_t*100
+            highest_f1 = f1_score_t*100
             torch.save(model.state_dict(), checkpoint_path + f'/best_model_fold{i+1}.pt')
             print(f"Current highest F1: {highest_f1:.2f}, checkpoint saved.")
             current_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
