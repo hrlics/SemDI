@@ -60,9 +60,9 @@ sh train_CTB.sh
 
 ### Results
 
-As a simple and effective approach, our HSemCD outperforms previous SOTA algorithms by a significant margin:
+As a simple and effective framework, our SemDI outperforms state-of-the-art algorithms by a significant margin:
 
-<img src="./imgs/Table1.png" alt="Table1" width="350" height="400" style="vertical-align:middle;"/> <img src="./imgs/Table2.png" alt="Table2" width="350" height="350" style="vertical-align:middle;"/>
+<img src="./imgs/ESC.png" alt="Table1" width="320" height="400" style="vertical-align:middle;"/> <img src="./imgs/CTB.png" alt="Table2" width="320" height="400" style="vertical-align:middle;"/><img src="./imgs/ESCstar.png" alt="Table2" width="320" height="200" style="vertical-align:middle;"/>
 
 
 
