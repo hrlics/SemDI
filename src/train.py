@@ -49,8 +49,6 @@ SEED=args.SEED
 shuffle=args.shuffle
 
 setup_seed(SEED)
-
-
 checkpoint = bert_path
 tokenizer = AutoTokenizer.from_pretrained(checkpoint)
 special_tokens_dict = {'additional_special_tokens': ['<e1>','</e1>','<e2>','</e2>']}
@@ -76,8 +74,7 @@ if dataset_name == 'ESC' and shuffle:
     print('\n*************************************************************')
     print('*********     use random partition (ESC*)    ****************')
     print('*************************************************************\n')
-    
-else:
+elif dataset_name == 'ESC':
     print('\n*************************************************************')
     print('*********     use sorted partition (ESC)    ****************')
     print('*************************************************************\n')
