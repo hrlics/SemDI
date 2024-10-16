@@ -55,8 +55,6 @@ Under `src` directory, run the following scripts to start training:
   sh train_CTB.sh
 ```
 
-> If this paper is accepted, we will release the full version, i.e., the total processed data for training.
-
 
 ### Results
 
