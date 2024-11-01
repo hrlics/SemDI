@@ -1,6 +1,12 @@
-# Advancing Event Causality Identification via Heuristic Semantic Dependency Inquiry Network
+# [EMNLP'24] Advancing Event Causality Identification via Heuristic Semantic Dependency Inquiry Network
 
-This repository provides the official Pytorch implementation of SemDI.
+![Static Badge](https://img.shields.io/badge/License-MIT-green) [![Static Badge](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/pdf/2409.13621)
+
+This repository provides the official Pytorch implementation of the following paper at EMNLP 2024:
+
+  *Advancing Event Causality Identification via Heuristic Semantic Dependency Inquiry Network* [[paper]](https://arxiv.org/pdf/2409.13621).
+
+
 
 ## :telescope: Overview
 
