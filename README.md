@@ -1,4 +1,4 @@
-# [EMNLP'24] Advancing Event Causality Identification via Heuristic Semantic Dependency Inquiry Network
+# [EMNLP 2024] Advancing Event Causality Identification via Heuristic Semantic Dependency Inquiry Network
 
 ![Static Badge](https://img.shields.io/badge/License-MIT-green) [![Static Badge](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/pdf/2409.13621)
 
