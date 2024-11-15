@@ -1,5 +1,5 @@
-python train.py \
-    --dataset dataset/ESC/ESC_dataset \
+python src/train.py \
+    --dataset src/dataset/ESC/ESC_dataset \
     --dataset_name ESC_star \
     --num_folds 5 \
     --num_epochs 100 \
