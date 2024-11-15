@@ -1,6 +1,6 @@
 # [EMNLP 2024] Advancing Event Causality Identification via Heuristic Semantic Dependency Inquiry Network
 
-![Static Badge](https://img.shields.io/badge/License-MIT-green) [![Static Badge](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/pdf/2409.13621)
+![Static Badge](https://img.shields.io/badge/License-MIT-green) [![Static Badge](https://img.shields.io/badge/Paper-EMNLP_2024-red)](https://aclanthology.org/2024.emnlp-main.87.pdf)
 
 This repository provides the official Pytorch implementation of the following paper at EMNLP 2024:
 
@@ -62,12 +62,27 @@ Under `src` directory, run the following scripts to start training:
 ```
 
 
-### Results
-
-As a simple and effective framework, our SemDI outperforms state-of-the-art algorithms by a significant margin:
-
-<img src="/imgs/ESC.png" alt="Table1" width="320" height="400" style="vertical-align:middle;"/> <img src="/imgs/CTB.png" alt="Table2" width="320" height="400" style="vertical-align:middle;"/><img src="/imgs/ESCstar.png" alt="Table2" width="320" height="200" style="vertical-align:middle;"/>
-
+## 📚 Citation
+If you find our work useful, please consider citing:
+```
+@inproceedings{li-etal-2024-advancing-event,
+    title = "Advancing Event Causality Identification via Heuristic Semantic Dependency Inquiry Network",
+    author = "Li, Haoran  and
+      Gao, Qiang  and
+      Wu, Hongmei  and
+      Huang, Li",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.87",
+    pages = "1467--1478",
+}
+```
 
 
 
