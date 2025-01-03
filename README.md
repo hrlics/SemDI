@@ -1,12 +1,13 @@
-# [EMNLP 2024] Advancing Event Causality Identification via Heuristic Semantic Dependency Inquiry Network
-
-![Static Badge](https://img.shields.io/badge/License-MIT-green) [![Static Badge](https://img.shields.io/badge/Paper-EMNLP_2024-red)](https://aclanthology.org/2024.emnlp-main.87.pdf)
-
-This repository provides the official Pytorch implementation of the following paper at EMNLP 2024:
-
-  *Advancing Event Causality Identification via Heuristic Semantic Dependency Inquiry Network* [[paper]](https://arxiv.org/pdf/2409.13621).
 
 
+<h3 align="center"><a href="https://aclanthology.org/2024.emnlp-main.87.pdf" style="color:#9C276A">
+Advancing Event Causality Identification via Heuristic Semantic Dependency Inquiry Network</a></h3>
+
+<h5 align="center">
+ 
+![Static Badge](https://img.shields.io/badge/License-MIT-green) 
+[![Static Badge](https://img.shields.io/badge/Paper-EMNLP_2024-red)](https://aclanthology.org/2024.emnlp-main.87.pdf)
+</h5>
 
 ## :telescope: Overview
 
