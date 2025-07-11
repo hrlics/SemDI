@@ -1,5 +1,5 @@
-python src/train.py \
-    --dataset src/dataset/CTB/CTB_dataset \
+python train.py \
+    --dataset dataset/CTB_dataset \
     --dataset_name CTB \
     --num_folds 10 \
     --num_epochs 100 \
