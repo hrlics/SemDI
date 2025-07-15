@@ -38,13 +38,22 @@ pip install -r requirements.txt
 ## :rocket: Getting Started
 
 ### Data:
-We provide part of the processed data in `src/dataset`
 
-The raw data can be found at:
+We have provided the processed data under `src/dataset`. Each datapoint follows the format below:
+```
+[
+  'ABC19980108.1830.0711.xml', # file path in raw data
+  'The financial assistance from the World Bank and the International Monetary Fund are not helping .', # context
+  'assistance', # event_1
+  'helping', # event_2
+  'non-causal' # label
+],
+```
 
-(1) EventStoryLine v0.9 (ESC): [https://github.com/tommasoc80/EventStoryLine](https://github.com/tommasoc80/EventStoryLine)
 
-(2) Causal-TimeBank (CTB): [https://github.com/paramitamirza/Causal-TimeBank](https://github.com/paramitamirza/Causal-TimeBank)
+The raw data can be found at: [EventStoryLine v0.9 (ESC)](https://github.com/tommasoc80/EventStoryLine), [Causal-TimeBank (CTB)](https://github.com/paramitamirza/Causal-TimeBank).
+
+
 
 
 ### Training
