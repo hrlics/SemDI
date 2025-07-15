@@ -1,5 +1,3 @@
-
-
 <h3 align="center"><a href="https://aclanthology.org/2024.emnlp-main.87.pdf" style="color:#9C276A">
 Advancing Event Causality Identification via Heuristic Semantic Dependency Inquiry Network</a></h3>
 
@@ -8,6 +6,12 @@ Advancing Event Causality Identification via Heuristic Semantic Dependency Inqui
 ![Static Badge](https://img.shields.io/badge/License-MIT-green) 
 [![Static Badge](https://img.shields.io/badge/Paper-EMNLP_2024-red)](https://aclanthology.org/2024.emnlp-main.87.pdf)
 </h5>
+
+## 📣 News
+
+- **\[07/15/2025\]** We release all the data (ESC, ESC*, and CTB) under `src/dataset`. If you find it helpful, please consider citing and giving us a star 🌟 !
+- **\[09/20/2024\]** Our paper is accepted by [EMNLP 2024 main](https://aclanthology.org/2024.emnlp-main.87/) !
+
 
 ## :telescope: Overview
 
