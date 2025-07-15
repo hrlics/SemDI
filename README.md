@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 ### Data:
 
-We have provided the processed data under `src/dataset`. Each datapoint follows the format below:
+We have provided the processed data at `src/dataset/ESC.pkl` and `src/dataset/CTB.pkl`. Each datapoint follows the format below:
 ```
 [
   'ABC19980108.1830.0711.xml', # file path in raw data
@@ -50,10 +50,10 @@ We have provided the processed data under `src/dataset`. Each datapoint follows 
 ],
 ```
 
+> [!NOTE]
+> As mentioned in Sec 5.1 of our [paper](https://aclanthology.org/2024.emnlp-main.87.pdf), unlike ESC dataset which sorts documents by topic IDs, the ESC* dataset involves random shuffling of documents, leading to more consistent training and testing distributions.
 
 The raw data can be found at: [EventStoryLine v0.9 (ESC)](https://github.com/tommasoc80/EventStoryLine), [Causal-TimeBank (CTB)](https://github.com/paramitamirza/Causal-TimeBank).
-
-
 
 
 ### Training
