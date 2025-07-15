@@ -77,7 +77,7 @@ Under `src` directory, run the following scripts to start training:
 
 
 ## 📚 Citation
-If you find our work useful, please consider citing:
+If you find our work helpful, please consider citing:
 ```
 @inproceedings{li-etal-2024-advancing-event,
     title = "Advancing Event Causality Identification via Heuristic Semantic Dependency Inquiry Network",
