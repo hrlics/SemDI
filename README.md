@@ -9,8 +9,8 @@ Advancing Event Causality Identification via Heuristic Semantic Dependency Inqui
 
 ## 📣 News
 
-- **\[07/15/2025\]** We release all the data (ESC, ESC*, and CTB) under `src/dataset`. If you find it helpful, please consider citing and giving us a star 🌟 !
-- **\[09/20/2024\]** Our paper is accepted by [EMNLP 2024 main](https://aclanthology.org/2024.emnlp-main.87/) !
+- We release all the data (ESC, ESC*, and CTB) under `src/dataset`. If you find it helpful, please consider citing and giving us a star 🌟 !
+- Our paper is accepted by [EMNLP 2024 main](https://aclanthology.org/2024.emnlp-main.87/) !
 
 
 ## :telescope: Overview
